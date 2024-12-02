@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        rancho: "Rancho , cursive"
+      },
+      backgroundImage: {
+        nav_img: "url('/src/assets/more/15.jpg')",
+        footer_img: "url('/src/assets/more/13.jpg')",
+        copyright_img: "url('/src/assets/more/24.jpg')",
+        banner_img: "url('/src/assets/more/3.png')",
+      }
+    },
   },
   plugins: [
     require('daisyui'),
