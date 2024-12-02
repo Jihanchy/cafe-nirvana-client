@@ -1,10 +1,12 @@
 import React from 'react';
-import Home from '../Components/Home';
+import Banner from '../Components/Banner';
+import Features from '../Components/Features';
 
 const HomePage = () => {
     return (
         <div>
-            <Home></Home>
+            <Banner></Banner>
+            <Features></Features>
         </div>
     );
 };

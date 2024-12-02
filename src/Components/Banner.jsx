@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+const Banner = () => {
     return (
         <div className='bg-banner_img py-40 bg-cover bg-center'>
             <div className='text-white w-9/12 mx-auto flex justify-end'>
@@ -15,4 +15,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Banner;
