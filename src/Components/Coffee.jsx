@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaEye } from 'react-icons/fa';
 import { MdDelete, MdEdit } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const Coffee = ({ coffee }) => {
     const { name, chef, _id, taste, photo } = coffee || {}
@@ -15,8 +16,8 @@ const Coffee = ({ coffee }) => {
                 <p><span className='font-semibold text-lg'>Taste :  </span><span>{taste}</span></p>
             </div>
             <div className="join md:join-vertical mt-3 md:mt-0 space-x-4 md:space-x-0 md:space-y-4">
-                <button className="btn join-item bg-[#e7a54e] text-white"><FaEye/></button>
-                <button className="btn join-item bg-neutral text-white"><MdEdit/></button>
+                <Link to={`/viewCoffee/${_id}`}><button className="btn join-item bg-[#e7a54e] text-white"><FaEye/></button></Link>
+                <Link to={`/updateCoffee/${_id}`}><button className="btn join-item bg-neutral text-white"><MdEdit/></button></Link>
                 <button className="btn join-item bg-red-600 text-white "><MdDelete/></button>
             </div>
         </div>

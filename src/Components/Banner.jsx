@@ -8,7 +8,7 @@ const Banner = () => {
                 <h2 className='font-medium text-4xl'>Would you like a Cup of Delicious Coffee?</h2>
                 <p>It's coffee time - Sip & Savor - Relaxation in every sip! Get the nostalgia back!!
                      Your companion of every moment!!! Enjoy the beautiful moments and make them memorable.</p>
-                     <button className='px-4 py-1 btn btn-sm rounded-none bg-[#E3B577] text-black hover:text-white hover:bg-transparent'>Learn more</button>
+                     <button className='px-4 rounded-sm btn btn-sm font-thin text-lg bg-[#E3B577] text-white hover:bg-transparent'>Learn more</button>
                 </div>
             </div>
         </div>
