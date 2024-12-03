@@ -6,6 +6,8 @@ import Users from "../Page/Users";
 import HomePage from "../Page/HomePage";
 import ViewCoffee from "../Page/ViewCoffee";
 import UpdateCoffee from "../Page/UpdateCoffee";
+import Register from "../Page/Register";
+import Login from "../Page/Login";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +33,14 @@ const router = createBrowserRouter([
                 path:'/updateCoffee/:id',
                 element:<UpdateCoffee/>,
                 loader:({params}) =>fetch(`http://localhost:4000/coffees/${params.id}`)
+            },
+            {
+                path:'/register',
+                element:<Register></Register>
+            },
+            {
+                path:'/login',
+                element:<Login></Login>
             },
             {
                 path:'/users',

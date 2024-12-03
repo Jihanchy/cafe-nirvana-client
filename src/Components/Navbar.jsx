@@ -7,6 +7,8 @@ const Navbar = () => {
             <NavLink className={({ isActive }) => `hover:text-warning px-4 ${isActive ? 'text-warning' : ''}`} to='/'>Home</NavLink>
             <NavLink className={({ isActive }) => `hover:text-warning px-4 ${isActive ? 'text-warning' : ''}`} to='/addCoffee'>Add Coffee</NavLink>
             <NavLink className={({ isActive }) => `hover:text-warning px-4 ${isActive ? 'text-warning' : ''}`} to='/users'>Users</NavLink>
+            <NavLink className={({ isActive }) => `hover:text-warning px-4 ${isActive ? 'text-warning' : ''}`} to='/register'>Sign Up</NavLink>
+            <NavLink className={({ isActive }) => `hover:text-warning px-4 ${isActive ? 'text-warning' : ''}`} to='/login'>Login</NavLink>
         </>
     return (
         <div className="navbar w-10/12 mx-auto text-white px-0">
