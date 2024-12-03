@@ -14,6 +14,8 @@ export default {
         footer_img: "url('/src/assets/more/13.jpg')",
         copyright_img: "url('/src/assets/more/24.jpg')",
         banner_img: "url('/src/assets/more/3.png')",
+        coffee_bg: "url('/src/assets/more/1.png')",
+        add_coffee_bg: "url('/src/assets/more/11.png')",
       }
     },
   },
