@@ -5,12 +5,12 @@ import OurPopularProduct from '../Components/OurPopularProduct';
 import { useLoaderData } from 'react-router-dom';
 
 const HomePage = () => {
-    const coffees = useLoaderData()
+    const loadedCoffees = useLoaderData()
     return (
         <div>
             <Banner></Banner>
             <Features></Features>
-            <OurPopularProduct coffees={coffees}></OurPopularProduct>
+            <OurPopularProduct loadedCoffees={loadedCoffees}></OurPopularProduct>
         </div>
     );
 };
